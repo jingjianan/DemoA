@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="simple" duration-ms="35" started-at="2015-06-24T02:22:54Z" finished-at="2015-06-24T02:22:54Z">
+    <groups>
+      <group name="slow">
+        <method signature="SimpleTest.aSlowTest()[pri:0, instance:example1.SimpleTest@8fce95]" name="aSlowTest" class="example1.SimpleTest"/>
+      </group> <!-- slow -->
+      <group name="fast">
+        <method signature="SimpleTest.aFastTest()[pri:0, instance:example1.SimpleTest@8fce95]" name="aFastTest" class="example1.SimpleTest"/>
+      </group> <!-- fast -->
+    </groups>
+    <test name="test" duration-ms="35" started-at="2015-06-24T02:22:54Z" finished-at="2015-06-24T02:22:54Z">
+      <class name="example1.SimpleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:example1.SimpleTest@8fce95]" name="setUp" is-config="true" duration-ms="8" started-at="2015-06-24T10:22:54Z" finished-at="2015-06-24T10:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="aFastTest()[pri:0, instance:example1.SimpleTest@8fce95]" name="aFastTest" duration-ms="5" started-at="2015-06-24T10:22:54Z" finished-at="2015-06-24T10:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+        <test-method status="PASS" signature="aSlowTest()[pri:0, instance:example1.SimpleTest@8fce95]" name="aSlowTest" duration-ms="2" started-at="2015-06-24T10:22:54Z" finished-at="2015-06-24T10:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSlowTest -->
+      </class> <!-- example1.SimpleTest -->
+      <class name="example1.TestNGLearn1">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:example1.TestNGLearn1@a9ae05]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2015-06-24T10:22:54Z" finished-at="2015-06-24T10:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:example1.TestNGLearn1@a9ae05]" name="Test1" duration-ms="1" started-at="2015-06-24T10:22:54Z" finished-at="2015-06-24T10:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:example1.TestNGLearn1@a9ae05]" name="Test2" duration-ms="1" started-at="2015-06-24T10:22:54Z" finished-at="2015-06-24T10:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:example1.TestNGLearn1@a9ae05]" name="AfterClass" is-config="true" duration-ms="0" started-at="2015-06-24T10:22:54Z" finished-at="2015-06-24T10:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- example1.TestNGLearn1 -->
+    </test> <!-- test -->
+  </suite> <!-- simple -->
+</testng-results>

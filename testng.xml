@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="simple" verbose="1">
+  <test name="test" preserve-order="true">
+    <classes>
+      <class name="example1.SimpleTest">
+       <methods>
+        <include name="aFastTest" />
+        <include name="aSlowTest" />
+       </methods>
+      </class>
+      <class name="example1.TestNGLearn1">
+       <methods>
+        <include name="Test1" />
+        <include name="Test2" />
+       </methods>
+      </class>
+    </classes>
+ </test>
+</suite>
